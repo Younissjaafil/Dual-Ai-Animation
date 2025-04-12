@@ -152,7 +152,7 @@ with gr.Blocks(css=".gradio-container{max-width: 720px !important}") as demo:
         gr.Examples(
             examples=[
                 "cartoon robot man with brown hair and headphones, waving hand, silver futuristic armor, glowing blue core, cute face, smiling, Pixar style",
-                "cartoon robot with blonde hair, orange skin tone, red tie, waving hand, cute robot body, blue glowing core, confident smile, Pixar style",
+                "cartoon robot girl with blonde hair, orange skin tone, red tie, waving hand, cute robot body, blue glowing core, confident smile, Pixar style",
                 "an astronaut riding a horse in space",
                 "a cartoon of a boy playing with a tiger",
                 "a cute robot artist painting on an easel, concept art",
