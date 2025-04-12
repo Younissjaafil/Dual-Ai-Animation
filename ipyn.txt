@@ -2,10 +2,8 @@
 !git clone https://github.com/Younissjaafil/Dual-Ai-Animation.git
 
 
-# --- Unified Dependency Installation ---
+# # --- Unified Dependency Installation ---
+%cd Dual-Ai-Animation
 !pip install -r requirements.txt
 
-# Additional essentials for both
-#!pip install gradio pydub tts
-
-!python /content/app.py
+!python /content/Dual-Ai-Animation/app.py

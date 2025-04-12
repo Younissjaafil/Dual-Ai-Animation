@@ -174,12 +174,12 @@ with gr.Blocks(css=".gradio-container{max-width: 720px !important}") as demo:
 
         gr.Examples(
             examples=[
-                ["Hey! It's me Dorthy, from the Wizard of Oz. Type in whatever you'd like me to say.", "/content/audio/Wizard-of-Oz-Dorthy.wav", "en"],
-                ["It's me Vito Corleone, from the Godfather. Type in whatever you'd like me to say.", "/content/audio/Godfather.wav", "en"],
-                ["Hey, it's me Paris Hilton. Type in whatever you'd like me to say.", "/content/audio/Paris-Hilton.mp3", "en"],
-                ["Hey, it's me Megan Fox from Transformers. Type in whatever you'd like me to say.", "/content/audio/Megan-Fox.mp3", "en"],
-                ["Hey there, it's me Jeff Goldblum. Type in whatever you'd like me to say.", "/content/audio/Jeff-Goldblum.mp3", "en"],
-                ["Hey there, it's me Heath Ledger as the Joker. Type in whatever you'd like me to say.", "/content/audio/Heath-Ledger.mp3", "en"]
+                ["Hey! It's me Dorthy, from the Wizard of Oz. Type in whatever you'd like me to say.", "/content/Dual-Ai-Animation/audio/Wizard-of-Oz-Dorthy.wav", "en"],
+                ["It's me Vito Corleone, from the Godfather. Type in whatever you'd like me to say.", "/content/Dual-Ai-Animation/audio/Godfather.wav", "en"],
+                ["Hey, it's me Paris Hilton. Type in whatever you'd like me to say.", "/content/Dual-Ai-Animation/audio/Paris-Hilton.mp3", "en"],
+                ["Hey, it's me Megan Fox from Transformers. Type in whatever you'd like me to say.", "/content/Dual-Ai-Animation/audio/Megan-Fox.mp3", "en"],
+                ["Hey there, it's me Jeff Goldblum. Type in whatever you'd like me to say.", "/content/Dual-Ai-Animation/audio/Jeff-Goldblum.mp3", "en"],
+                ["Hey there, it's me Heath Ledger as the Joker. Type in whatever you'd like me to say.", "/content/Dual-Ai-Animation/audio/Heath-Ledger.mp3", "en"]
             ],
             inputs=[voice_text, voice_input, language]
         )
