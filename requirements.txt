@@ -1,0 +1,7 @@
+torch 
+tts
+diffusers
+transformers
+gradio
+peft
+pydub
